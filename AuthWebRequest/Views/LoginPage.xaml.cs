@@ -18,7 +18,6 @@ namespace AuthWebRequest
 				Password = passwordEntry.Text
 			};
 			var result = await App.Manager.CheckCredentialAsync (user);
-//			var result = await App.Service.LoginUserAsync (user);
 
 			if (result) {
 				Navigation.InsertPageBefore (new HelloPage (), this);

@@ -6,7 +6,6 @@ namespace AuthWebRequest
 	public class App : Application
 	{
 		public static AuthManager Manager { get; set; }
-//		public static IRestService Service { get; set; }
 
 		public App ()
 		{
